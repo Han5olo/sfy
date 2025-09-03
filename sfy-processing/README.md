@@ -19,12 +19,28 @@ $ pip install -e .
 
 ## Usage
 
-Specify the server and read-token in environment variables, e.g. in `.bashrc`:
+Specify the server and read-token in environment variables, e.g. in `.bashrc`, for Linux∕MocOS (1), Windows PowherShell (2) or CMD (3).
 
+
+1. For Linux and MacOS
 ```
 export SFY_SERVER='https://wavebug.met.no'
 export SFY_READ_TOKEN='secret' # replace with the actual token
 export SFY_DATA_CACHE='/tmp/sfy-cache'
+```
+
+2. For Windows Powershell:
+```
+$env:SFY_SERVER = "https://wavebug.met.no"
+$env:SFY_READ_TOKEN = "secret"    # or your real token
+$env:SFY_DATA_CACHE = "C:\Temp\sfy-cache"
+```
+
+3. For Windows CMD: (not tested)
+```
+set SFY_SERVER=https://wavebug.met.no
+set SFY_READ_TOKEN=secret
+set SFY_DATA_CACHE=C:\Temp\sfy-cache
 ```
 
 with the conda environment activate try it out with:
