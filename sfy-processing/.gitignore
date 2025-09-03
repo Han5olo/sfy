@@ -2,3 +2,4 @@
 sfy_processing.egg-info
 .env
 build
+__pycache__
