@@ -22,7 +22,7 @@ $ pip install -e .
 Specify the server and read-token in environment variables, e.g. in `.bashrc`, for Linux∕MocOS (1), Windows PowherShell (2) or CMD (3).
 
 
-1. For Linux and MacOS
+1. For Linux and MacOS (MacOS not tested)
 ```
 export SFY_SERVER='https://wavebug.met.no'
 export SFY_READ_TOKEN='secret' # replace with the actual token
